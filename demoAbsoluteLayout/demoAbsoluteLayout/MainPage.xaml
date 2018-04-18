@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:demoAbsoluteLayout"
+             x:Class="demoAbsoluteLayout.MainPage">
+
+    <!--<AbsoluteLayout>
+
+        <Button x:Name="Button"
+                Text="Caja 1"
+                BackgroundColor="Blue"
+                AbsoluteLayout.LayoutBounds="50, 50, 200, 200">
+
+        </Button>
+        
+        <Button x:Name="Button2"
+                Text="Caja 2"
+                BackgroundColor="Tomato"
+                AbsoluteLayout.LayoutBounds="100, 100, 200, 300">
+
+        </Button>
+
+        <Button x:Name="Button3"
+                Text="Caja 3"
+                BackgroundColor="Red"
+                AbsoluteLayout.LayoutBounds=".5, .8, .3, .3"
+                AbsoluteLayout.LayoutFlags="All" BorderRadius="5">
+
+        </Button>
+
+        <Button x:Name="Button4"
+                Text="Caja 4"
+                BackgroundColor="Orange"
+                AbsoluteLayout.LayoutBounds="150, 200, 4, 100"
+                AbsoluteLayout.LayoutFlags="WidthProportional">
+
+        </Button>
+
+        <Button x:Name="Button5"
+                Text="Caja 5"
+                BackgroundColor="Green"
+                AbsoluteLayout.LayoutBounds="300, 200, 50, .4"
+                AbsoluteLayout.LayoutFlags="HeightProportional">
+
+        </Button>
+
+    </AbsoluteLayout>-->
+
+    <ScrollView>
+
+        <StackLayout Margin="0, 10, 0, 10">
+
+            <StackLayout Orientation="Horizontal">
+
+                <Label Text="Nombre"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold">
+                </Label>
+
+                <Entry Placeholder="Ingrese su Nombre"
+                   HorizontalOptions="FillAndExpand">
+
+                </Entry>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Label Text="Dirección"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold">
+                </Label>
+
+                <Entry Placeholder="Ingrese su Dirección"
+                   HorizontalOptions="FillAndExpand">
+
+                </Entry>
+
+            </StackLayout>
+
+            <StackLayout>
+
+                <BoxView BackgroundColor="Orange"
+                     VerticalOptions="FillAndExpand"
+                     HeightRequest="500"
+                     HorizontalOptions="FillAndExpand">
+
+                </BoxView>
+
+                <Button Text="Buscar Foto"></Button>
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
